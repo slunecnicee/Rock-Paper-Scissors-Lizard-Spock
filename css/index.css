@@ -1,0 +1,120 @@
+#score {
+    border: 6px solid white;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 4em;
+    text-shadow: 2px 2px 2px black;
+    margin: 1em;
+}
+
+#description {
+    width: 90%;
+    font-size: 3.5em;
+    color: white;
+    height: auto;
+    text-shadow: 2px 2px 2px black;
+    padding: 2rem;
+}
+
+header {
+    font-size: 3em;
+    color: white;
+    width: 100%;
+    background: #404040;
+    text-align: center;
+    height: 2.5em;
+    text-shadow: 4px 4px 4px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.selection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.selection>div {
+    margin: 1em;
+}
+
+img {
+    margin: 0.5em;
+    height: 196px;
+}
+
+.base {
+    border-radius: 50%;
+    padding: 0.25em;
+}
+
+.unselected {
+    border: 8px solid white;
+}
+
+.selected {
+    border: 8px solid green;
+}
+
+.aiSelected {
+    border: 8px solid red;
+}
+
+
+
+
+.rules {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.rules button {
+    height: 60%;
+    width: 10%;
+    font-size: large;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    text-shadow: 0 0 10px whitesmoke;
+    transition: all 0.5s ease;
+}
+
+.rules button:hover {
+    background-color: whitesmoke;
+    color: black;
+    text-shadow: 0 0 10px rgb(60, 59, 59);
+}
+
+.rules p {
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+
+body {
+    background: #202020;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

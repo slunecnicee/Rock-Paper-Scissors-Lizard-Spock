@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Rock Paper Scissors Lizard Spock game with sound effects">
+        <meta name="author" content="Maia Kiknavelidze">
+        <title>Rock Paper Scissors Lizard Spock</title>
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        <script defer src="./js/index.js"></script>
+
+
+      </head>
+<body>
+  <header>
+    <span>Rock Paper Scissors Lizard Spock!</span>
+  </header>
+  <div class="rules">
+    <p>Click to Hear Rules</p>
+    <button  onclick="playSound()">
+        <i class="fas fa-volume-up"></i>
+      </button>
+    
+      
+  </div>
+  <div class="container">
+    <div id="score"></div>
+    <div id="description"></div>
+    <div id="selection" class="selection"></div>
+  </div>
+
+  <audio id="sound" src="./audio/Sheldon explains rock-paper-scissors-lizard-Spock.mp3"></audio>
+
+  <script>
+    function playSound() {
+      const sound = document.getElementById("sound");
+      sound.play();
+    }
+  </script>
+
+
+</body>
+
+</html>
